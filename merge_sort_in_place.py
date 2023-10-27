@@ -22,7 +22,7 @@ def merge(A, begin, median, end):
             median += 1
             begin2 += 1
  
-def mergeSort(arr, begin, end):
+def mergeSort(A, begin, end):
     if (begin < end):
  
         median = begin + (end - begin) // 2
